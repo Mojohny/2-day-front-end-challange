@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fractal-Technology</title>
+        <meta name="description" content="Stattic website For the Company">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>  
+        <header class="header">
+            <img class="logo" src="img/Logo2.png" >
+            <div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">新闻与公告</a></li>
+                <li><a href="#">研究项目</a></li>
+                <li><a href="#">加入我们</a></li>
+            </ul>
+        </nav>
+            </div>
+            <ul>
+                <li class="sm">
+            <a class="cta" href="#"><Button class="button">English</Button></a>
+                </li>
+                <div class="sm">
+                <li>
+                    <a href="#"><img src="img/h1.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/h2.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/h3.png"></a>
+                </li>
+                </div>
+            </ul>
+       </header>
+     <div class="banner"> <img src="img/banner.png"></div>
+    <div class="bodyy">
+        <div class="section1">
+            <h1 class="annlogo"><img src="img/3.png"> 新闻动态</h1>
+            <div class="dividers">
+            <hr class="divider1">
+            <hr class="divider2">
+            </div>
+            <div class="newsimg"><img src="img/1.png">
+                <ul class="list">
+            <li class="news1">基于中国综合社会调查（CGSS）数 据产出的学术成果再创新高  </li>
+                <br><br>
+                    <li>什么是大数据？也许你不能准确地给它下一个定义，但是，你知道或者不知道，它就在那里已经渗透到你工作、生活的方方面面...
+                    </li>
+
+                </ul>
+                <br>
+            </div>
+            <div class="news2">
+                <time><h1 class="date">26</h1> <h3 class="time">2019.07</h3></time>
+                <ul class="list">
+                <li class="news2-1">国家自然科学基金委来我中心调研</li>
+                <br>
+                <li class="news2-11">什么是大数据？也许你不能准确地给它下一个定义，但是，你知道或者不知道，它就在那里，已经渗透到你工作、生活的方方面面...</li>
+                </ul>
+            </div>
+            <div class="news2">
+                <time><h1 class="date">20</h1> <h3 class="time">2019.07</h3></time>
+                <ul class="list">
+                    <li class="news2-1">中国发展指数（2018）正式发布</li>
+                    <br>
+                    <li class="news2-11">什么是大数据？也许你不能准确地给它下一个定义，但是，你知道或者不知道，它就在那里，已经渗透到你工作、生活的方方面面...</li>
+                </ul>
+            </div>
+            <p></p>
+        </div>
+        <div class="section2" >
+
+            <h1 class="annlogo"><img src="img/2.png">通知公告</h1>
+            <hr class="divider3">
+            <hr class="divider2">
+            <ul>
+                <li class="ann"><a class="an1" href="#"><button class="bl">2019.07.17</button>中国调查与数据中心研究方法系列讲座——中国城市居民的
+                主观社会地位和污染规避: 理论假设和准实验证据...</a></li>
+                <li class="ann"><a class="an1" href="#"><button class="bl">2019.07.17</button>校内社会调查项目结题须知</a></li>
+                <li class="ann"><a class="an1" href="#"><button class="bl">2019.07.17</button>中国调查与数据中心研究方法系列讲座——中国城市居民的
+                    主观社会地位和污染规避: 理论假设和准实验证据...</a></li>
+                <li class="ann"><a class="an1" href="#"><button class="bl">2019.07.17</button>校内社会调查项目结题须知...</a></li>
+                <li class="ann"><a class="an1" href="#"><button class="bl">2019.07.17</button>校内社会调查项目结题须知</a></li>
+
+            </ul>
+        </div>
+    </div>
+        <div>
+            <h2 class="rp"> <img class="rpimg" src="img/4.png">研究项目</h2>
+        </div>
+    <div class="slider">
+        <div class="slide1 fade">
+        <img class="mySlides" src="img/slider/one.png">
+        <img class="mySlides" src="img/slider/six.png" >
+        <img class="mySlides" src="img/slider/three.png" >
+        </div>
+        <div class="slide1 fade">
+        <img class="mySlides" src="img/slider/two.png" >
+        <img class="mySlides" src="img/slider/five.png" >
+        <img class="mySlides" src="img/slider/four.png" >
+        </div>
+        <div class="ctrl">
+        <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+        <div style="text-align:center">
+            <span class="dot" onclick="plusDivs(1)"></span>
+            <span class="dot" onclick="plusDivs(2)"></span>
+        </div>
+        <button class="next" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+    </div>
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("slide1 fade");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+        }
+        </script>
+    <br>
+    <div class="footer">
+        <div class="footerimg"></div>
+        <ul class="footerlist">
+            <li>
+        <img class="fimg" src="img/5.png"><br>
+            <h5 class="text">北京乡镇企业大厦9层</h5>
+            </li>
+            <li>
+                <img class="fimg" src="img/6.png">
+            <h5 class="text">
+                100000
+            </h5>
+            </li>
+
+            <li>
+                <img class="fimg" src="img/7.png"><br>
+            <h5 class="text">fractal-technology.com</h5>
+
+            </li>
+            <li>
+                <img class="fimg" src="img/8.png"><br>
+            <h5 class="text">400-6446-365</h5>
+            </li>
+
+            <li>
+                <img class="fimg" src="img/9.png"><br>
+            <h5 class="text">fractal-technology.com</h5>
+            </li>
+
+        </ul>
+        <br>
+        <div class="footertxt"> <a href="#">网络地图</a> | <a href="#">联系我们</a> |<a href="#">隐私版权</a> | <a href="#">International Version</a> <br>
+        <p> 版权所有：北京分形科技有限公司</p><br>
+       <a href="#"><img src="img/f1.png"></a><a href="#"><img src="img/f2.png"></a></div>
+    </div>
+   
+        </div> 
+    </body>
+</html>

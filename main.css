@@ -1,0 +1,299 @@
+body{
+    background-image: url(imr/bgimg.png);
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+/*.logo {*/
+/*    !*padding-right: 40px;*!*/
+/*    background-color: none;*/
+/*    padding-left: initial;*/
+/*    margin-left: initial;*/
+/*}*/
+/*.header{*/
+/*    position: center;*/
+/*    padding-left: initial;*/
+/*    }*/
+li,a, button{
+    font-family: "Source Sans Pro",sans-serif ;
+    font-weight: 275;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+}
+.nav_links {
+    list-style: lower-latin;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 2px 7px;
+    word-spacing: 1.4px;
+}
+
+.nav_links li a {
+    transition: 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: red;
+}
+
+
+.button {
+    margin-right: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: red;
+    font-style: normal;
+    color: azure;
+}
+.bl {
+    margin-right: 20px;
+    padding: 9px 25px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+
+bl:hover {
+    background-color: red;
+    font-style: normal;
+    color: azure;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20%;
+    background-color:transparent;
+    /*padding-left: 400px;*/
+
+}
+.banner {
+  width: 100%;
+  height: 78%;
+}
+
+.banner img {
+  height : 100%;
+  width: 100%;
+}
+    .bodyy{
+        height: fit-content;
+        display: flex;
+        /*width: 5cm;*/
+        position: center;
+    }
+
+@media (min-width: 780px){
+    .bodyy {
+        box-sizing: border-box;
+    }
+}
+/*.bodyy mainleft{*/
+/*    float: left;*/
+/*    width: 50%;*/
+/*    background-color: blue;*/
+/*}*/
+.section1{
+    margin: 2px;
+    padding-right: 50px;
+    width: 600px;
+    /*position: center;*/
+    padding-left: 300px;
+}
+.section2{
+    margin: 2px;
+    padding-right: 50px;
+    width: 20cm;
+    position: center;
+}
+
+.next{
+    margin-left: 5px;
+    color: red;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+    border-color: gray;
+}
+
+.prev{
+    color: red;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+    border-color: gray;
+}
+.slider{
+    /*position: relative;*/
+    padding-left: 370px;
+    /*margin: 3%;*/
+}
+.mySlides{
+    padding-right: 150px;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.ctrl{
+    display: flex;
+    padding-left: 520px;
+}
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    size: 10px;
+}
+
+.divider1{
+    border-top: red solid;
+    color: red;
+    margin-bottom: -10px;
+    background-color: red;
+    width: 3.8cm;
+    margin-left: -5px;
+}
+.divider3{
+    border-top: blue solid;
+    color: blue;
+    margin-bottom: -10px;
+    background-color: red;
+    width: 3.8cm;
+    margin-left: -5px;
+}
+.divider2{
+    color: lightgray;
+    width: 9cm;
+    margin-left: 10px;
+}
+.newsimg{
+    display: flex;
+
+}
+.news1{
+font-weight: bold;
+}
+.list{
+    list-style: none;
+}
+.time{
+    margin-top: -10px;
+    font-size: 10pt;
+}
+.date{
+margin-bottom: -10px;
+font-size: 32pt;
+}
+.news2{
+    display: flex;
+}
+.news2-1{
+    margin-left:-15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.news2-11{
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.news2-1:hover{
+    color: red;
+}
+.an1{
+    display: flex;
+}
+.an1:hover{
+    color: red;
+}
+.ann{
+    margin-top: 40px;
+    list-style: none;
+}
+.annlogo{
+    display: flex;
+}
+.rp{
+    padding-left: 900px;
+    padding-bottom: 100px;
+}
+.caption{
+position: absolute;
+    top: 400px;
+    left: 430px;
+    color: white;
+    text-decoration-color: white;
+}
+.footerlist li{
+    display: inline-block;
+    list-style-type: none;
+}
+.text{
+    margin-right: 100px;
+}
+.fimg{
+    margin-right: 100px;
+    margin-bottom: -30px;
+}
+.footertxt a:hover{
+    color: blue;
+}
+.vl{
+    border-left: 6px solid green;
+    height: 5px;
+    margin-right: 0px;
+}
+.sm{
+    list-style-type: none;
+    display: flex;
+}
+.footer {
+    padding: 5px;
+    text-align: center;
+    background-color: azure;
+    color: gray;
+    color: rgb(36, 33, 33);
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+}
